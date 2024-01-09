@@ -1,0 +1,5 @@
+HIST_STAMPS="yyyy-mm-dd"
+DOCKER_GATEWAY_HOST=10.120.0.1
+LANG=en_US.UTF-8
+PATH=$PATH:~/.local/bin:~/go/bin/:/opt/node/bin/
+EDITOR="vim"
