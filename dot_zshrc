@@ -23,4 +23,6 @@ if [ -d ~/.shell ]; then
     done
 fi
 
+eval "$(zoxide init zsh)"
+
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
