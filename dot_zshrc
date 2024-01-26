@@ -1,20 +1,8 @@
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 if [ -f ~/.config/.env ]; then
     set -o allexport
         source ~/.config/.env
     set +o allexport
 fi
-
-ZSH="$HOME/.oh-my-zsh"
-DISABLE_AUTO_UPDATE="true"
-ZSH_THEME="powerlevel10k/powerlevel10k"
-ENABLE_CORRECTIONS="false"
-
-plugins=(git zsh-syntax-highlighting)
-source $ZSH/oh-my-zsh.sh
 
 # Custom snippet to source my configuration
 if [ -d ~/.shell ]; then
@@ -23,8 +11,9 @@ if [ -d ~/.shell ]; then
     done
 fi
 
-eval "$(zoxide init zsh)"
+alias ll='ls -alF'
 
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
