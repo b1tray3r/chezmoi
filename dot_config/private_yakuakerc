@@ -18,8 +18,8 @@ DefaultProfile=aborgardt.profile
 FirstRun=false
 
 [KFileDialog Settings]
-Recent Files[$e]=dark-hexagonal-background-with-gradient-color.zip,file:$HOME/Pictures/5053309.jpg
-Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Pictures/
+Recent Files[$e]=dark-hexagonal-background-with-gradient-color.zip,file:$HOME/Bilder/test.png
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Bilder/
 detailViewIconSize=16
 
 [Shortcuts]
