@@ -90,3 +90,7 @@ show_always = false
 [nodejs]
 format = "via [🤖 $version](bold green) "
 
+[custom.current_task]
+command = """task active | head -5 | tail -2 | sed "s/No matches./[No active task]/" | xargs"""
+when = true
+shell = "bash"
