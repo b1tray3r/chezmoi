@@ -1,8 +1,2 @@
-data.location=~/Tasks
-uda.totalactivetime.type=duration
-uda.totalactivetime.label=Total active time
-uda.totalactivetime.values=
-report.list.labels=ID,Active,Time Spent,D,P,Project,Tags,R,Sch,Due,Until,Description,Urg
-report.list.colums=id,totalactivetime,entry.age,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,urgency
-report.list.columns=id,start.age,totalactivetime,depends.indicator,priority,project,tags,recur.indicator,scheduled.countdown,due,until.remaining,description.count,urgency
+data.location=~/.task
 news.version=2.6.0
