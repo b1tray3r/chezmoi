@@ -16,6 +16,7 @@ export LS_COLORS
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 alias ls="ls --color=auto"
 alias ll='ls -alF'
+alias gce='gh copilot explain'
 
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
