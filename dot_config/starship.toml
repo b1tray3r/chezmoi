@@ -91,6 +91,6 @@ show_always = false
 format = "via [🤖 $version](bold green) "
 
 [custom.current_task]
-command = """task active | head -5 | tail -2 | sed "s/No matches./[No active task]/" | xargs"""
+command = """timew export | grep \"id\":1, | jq 'if has("end") then "no task" else .tags[0] end'"""
 when = true
 shell = "bash"

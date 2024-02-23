@@ -11,10 +11,17 @@ CursorShape=1
 
 [General]
 Command=/usr/bin/zsh
+LocalTabTitleFormat=%u@%h:%w - %n in %D
 Name=aborgardt
 Parent=FALLBACK/
+RemoteTabTitleFormat=%u@%h:%w - %n in %D
 ShowTerminalSizeHint=false
 TerminalCenter=false
 
+[Scrolling]
+ReflowLines=true
+ScrollFullPage=true
+
 [Terminal Features]
+BlinkingTextEnabled=false
 VerticalLine=false
