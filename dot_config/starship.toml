@@ -91,6 +91,6 @@ show_always = false
 format = "via [🤖 $version](bold green) "
 
 [custom.current_task]
-command = """timew export | grep \"id\":1, | jq 'if has("end") then "no task" else .tags[0] end'"""
-when = true
+command = """source ~/.shell/task.sh; echo " "; current_task"""
+when = "true"
 shell = "bash"
