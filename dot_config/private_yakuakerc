@@ -23,15 +23,11 @@ Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/Bilder/
 detailViewIconSize=16
 
 [Shortcuts]
-close-active-terminal=none
+close-active-terminal=Alt+W
 close-session=none
 decrease-window-height=none
 decrease-window-width=none
 file_quit=none
-grow-terminal-bottom=none
-grow-terminal-left=none
-grow-terminal-right=none
-grow-terminal-top=none
 help_whats_this=none
 increase-window-height=none
 increase-window-width=none
@@ -39,14 +35,14 @@ move-session-left=none
 move-session-right=none
 new-session=none
 next-session=none
-next-terminal=none
+next-terminal=Alt+Right
 options_configure=none
 options_configure_keybinding=none
 previous-session=none
-previous-terminal=none
+previous-terminal=Alt+Left
 rename-session=none
-split-left-right=none
-split-top-bottom=none
+split-left-right=Alt+'
+split-top-bottom=Alt+_
 switch-to-session-1=none
 switch-to-session-10=none
 switch-to-session-2=none
@@ -60,7 +56,7 @@ switch-to-session-9=none
 toggle-session-monitor-activity=none
 toggle-session-monitor-silence=none
 toggle-titlebar=none
-view-full-screen=none
+view-full-screen=Ctrl+F11
 
 [Window]
 DynamicTabTitles=false
