@@ -21,9 +21,11 @@
     cursor_color = "#aaaaaa"
     font = DejaVuSansM Nerd Font Mono 10
     foreground_color = "#ebdbb2"
+    scrollbar_position = hidden
     scroll_on_keystroke = False
     scroll_on_output = True
     scrollback_lines = 1000
+    scrollback_infinite = True
     use_system_font = False
     background_image = /home/aborgardt/Bilder/maintenance.png
 [layouts]
