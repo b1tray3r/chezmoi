@@ -1,0 +1,37 @@
+[global_config]
+  window_state = maximise
+  borderless = True
+  extra_styling = False
+  tab_position = hidden
+  scroll_tabbar = True
+  homogeneous_tabbar = False
+  title_at_bottom = True
+  title_use_system_font = False
+  title_font = DejaVuSansM Nerd Font Mono 9
+[keybindings]
+  split_horiz = <Primary>underscore
+  split_vert = <Primary>apostrophe
+  close_term = <Primary>w
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_blink = False
+    cursor_color = "#aaaaaa"
+    font = DejaVuSansM Nerd Font Mono 10
+    foreground_color = "#ebdbb2"
+    scroll_on_keystroke = False
+    scroll_on_output = True
+    scrollback_lines = 1000
+    use_system_font = False
+    background_image = /home/aborgardt/Bilder/maintenance.png
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
