@@ -3,7 +3,7 @@ Frames=7
 
 [Appearance]
 BackgroundColor=255,255,255
-BackgroundColorOpacity=0
+BackgroundColorOpacity=90
 HideSkinBorders=true
 TerminalHighlightOnManualActivation=true
 Translucency=true
