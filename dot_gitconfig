@@ -1,0 +1,12 @@
+[user]
+  signingkey = alexander.borgardt@gmail.com
+	email = alexander.borgardt@gmail.com 
+	name = aborgardt
+[init]
+	defaultBranch = master
+[core]
+  autocrlf = input
+[commit]
+  gpgSign = true
+[tag]
+  gpgSign = true
