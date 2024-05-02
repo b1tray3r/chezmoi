@@ -29,5 +29,4 @@ fi
 
 # Added by Toolbox App
 export PATH="$PATH:/home/aborgardt/.local/share/JetBrains/Toolbox/scripts"
-export GOPATH="$HOME/go"
-export PATH="$GOPATH/bin:$PATH"
+
