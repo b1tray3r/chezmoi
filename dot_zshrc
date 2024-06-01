@@ -31,4 +31,6 @@ fpath+=~/.zfunc
 export GOPATH="$HOME/go"
 export PATH="$GOPATH/bin:$PATH"
 
+export ANSIBLE_VAULT_PASSWORD_FILE=~/.config/ansible_vault
+
 eval "$(zellij setup --generate-auto-start zsh)"
