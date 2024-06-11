@@ -2,8 +2,3 @@
 	path = dot_config/nvim
 	url = git@github.com:b1tray3r/neovim.git
   branch = master
-
-[submodule "dstask"]
-	path = dot_dstask
-	url = git@github.com:b1tray3r/tasks.git
-	branch = master
